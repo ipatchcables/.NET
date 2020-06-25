@@ -1,0 +1,21 @@
+using System;
+
+//methods are in parentheses
+//each line of method ends with ;
+
+namespace SyntaxAndStructure
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Foo("Test");
+            Foo("Test2");
+        }
+      static void Foo(string name)
+        {
+            Console.WriteLine("in foo..");
+            Console.WriteLine(name);
+        }
+    }
+}
